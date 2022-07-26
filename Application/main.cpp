@@ -2,8 +2,8 @@
 
 #include <thread>
 
-int __stdcall wWinMain(HINSTANCE instance, HINSTANCE previousInstance, PWSTR arguments, int commandShow) {
-	gui::CreateHWindow("Window Title", "Window Title");
+int __stdcall WinMain(HINSTANCE instance, HINSTANCE previousInstance, LPSTR arguments, int commandShow) {
+	gui::CreateHWindow("PShell IDE", "pshellide");
 	gui::CreateDevice();
 	gui::CreateImGui();
 

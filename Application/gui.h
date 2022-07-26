@@ -2,8 +2,13 @@
 #include <d3d9.h>
 
 namespace gui {
-	constexpr int WIDTH = 500;
-	constexpr int HEIGHT = 300;
+	constexpr int WIDTH = 1700;
+	constexpr int HEIGHT = 900;
+
+	namespace console {
+		void WriteLine(const char* text);
+		void Clear();
+	}
 
 	inline bool exit = true;
 
